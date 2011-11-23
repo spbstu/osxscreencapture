@@ -21,6 +21,7 @@
 		20B66D450E70392470A8A1A2 /* gstscreencapturesrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gstscreencapturesrc.h; sourceTree = "<group>"; };
 		20B66D450E70392470A8A1A4 /* gstscreencapturesrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gstscreencapturesrc.m; sourceTree = "<group>"; };
 		20B66D450E70392470A8A1A6 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = file.am; path = Makefile.am; sourceTree = "<group>"; };
+		E05496F6147CDC3100229BAA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E0ADC3C514557FA300E95306 /* plugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +41,7 @@
 		20B66D450E70392470A8A191 = {
 			isa = PBXGroup;
 			children = (
+				E05496F6147CDC3100229BAA /* README */,
 				E0ADC3C514557FA300E95306 /* plugin.m */,
 				20B66D450E70392470A8A1A6 /* Makefile.am */,
 				20B66D450E70392470A8A1A4 /* gstscreencapturesrc.m */,
