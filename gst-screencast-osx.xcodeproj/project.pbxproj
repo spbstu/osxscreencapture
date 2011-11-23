@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B66D450E70392470A8A19F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B66D450E70392470A8A19E /* Cocoa.framework */; };
+		20B66D450E70392470A8A1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B66D450E70392470A8A1A0 /* Foundation.framework */; };
+		20B66D450E70392470A8A1A3 /* gstscreencapturesrc.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B66D450E70392470A8A1A2 /* gstscreencapturesrc.h */; };
+		20B66D450E70392470A8A1A5 /* gstscreencapturesrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66D450E70392470A8A1A4 /* gstscreencapturesrc.m */; };
+		E0ADC3C614557FA300E95306 /* plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC3C514557FA300E95306 /* plugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20B66D450E70392470A8A195 /* gst-screencast-osx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "gst-screencast-osx.dylib"; path = "libgst-screencast-osx.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B66D450E70392470A8A19E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		20B66D450E70392470A8A1A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20B66D450E70392470A8A1A2 /* gstscreencapturesrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gstscreencapturesrc.h; sourceTree = "<group>"; };
+		20B66D450E70392470A8A1A4 /* gstscreencapturesrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gstscreencapturesrc.m; sourceTree = "<group>"; };
+		20B66D450E70392470A8A1A6 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = file.am; path = Makefile.am; sourceTree = "<group>"; };
+		E0ADC3C514557FA300E95306 /* plugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B66D450E70392470A8A19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B66D450E70392470A8A19F /* Cocoa.framework in Frameworks */,
+				20B66D450E70392470A8A1A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B66D450E70392470A8A191 = {
+			isa = PBXGroup;
+			children = (
+				E0ADC3C514557FA300E95306 /* plugin.m */,
+				20B66D450E70392470A8A1A6 /* Makefile.am */,
+				20B66D450E70392470A8A1A4 /* gstscreencapturesrc.m */,
+				20B66D450E70392470A8A1A2 /* gstscreencapturesrc.h */,
+				20B66D450E70392470A8A192 /* Products */,
+				20B66D450E70392470A8A19D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20B66D450E70392470A8A192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B66D450E70392470A8A195 /* gst-screencast-osx.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B66D450E70392470A8A19D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B66D450E70392470A8A1A0 /* Foundation.framework */,
+				20B66D450E70392470A8A19E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20B66D450E70392470A8A19A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B66D450E70392470A8A1A3 /* gstscreencapturesrc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20B66D450E70392470A8A196 /* gst-screencast-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B66D450E70392470A8A197 /* Build configuration list for PBXNativeTarget "gst-screencast-osx" */;
+			buildPhases = (
+				20B66D450E70392470A8A19A /* Headers */,
+				20B66D450E70392470A8A19B /* Sources */,
+				20B66D450E70392470A8A19C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gst-screencast-osx";
+			productName = "gst-screencast-osx";
+			productReference = 20B66D450E70392470A8A195 /* gst-screencast-osx.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B66D450E70392470A8A18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 20B66D450E70392470A8A190 /* Build configuration list for PBXProject "gst-screencast-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20B66D450E70392470A8A191;
+			productRefGroup = 20B66D450E70392470A8A192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B66D450E70392470A8A196 /* gst-screencast-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B66D450E70392470A8A19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B66D450E70392470A8A1A5 /* gstscreencapturesrc.m in Sources */,
+				E0ADC3C614557FA300E95306 /* plugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20B66D450E70392470A8A193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/opt/local/glib-2.0/include/** /opt/local/include/**";
+			};
+			name = Release;
+		};
+		20B66D450E70392470A8A194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/opt/local/glib-2.0/include/** /opt/local/include/**";
+			};
+			name = Debug;
+		};
+		20B66D450E70392470A8A198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20B66D450E70392470A8A199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B66D450E70392470A8A190 /* Build configuration list for PBXProject "gst-screencast-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B66D450E70392470A8A193 /* Release */,
+				20B66D450E70392470A8A194 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B66D450E70392470A8A197 /* Build configuration list for PBXNativeTarget "gst-screencast-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B66D450E70392470A8A198 /* Release */,
+				20B66D450E70392470A8A199 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B66D450E70392470A8A18F /* Project object */;
+}
